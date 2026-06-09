@@ -13,8 +13,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50" />
 
       <div className="relative text-center text-white">
-        <h1 className="text-3xl font-bold mb-4 animate-slide-in">
-   Reliable Freight Solutions Serving the GTA for 15+ Years
+        <h1 className="text-1xl md text-3xl  font-bold mb-4 animate-slide-in">
+Your Trusted GTA Freight Partner
         </h1>
 
         <p className="mb-6">
