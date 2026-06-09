@@ -17,13 +17,13 @@ const Hero = () => {
 Your Trusted GTA Freight Partner
         </h1>
 
-        <p className="mb-6">
+        <p className="mb-6 mt-2">
           Over 15 years of excellence in logistics
         </p>
 
         <div className="flex gap-4 justify-center">
         
-         <a
+         <a className="mt-2"
   href="#contact"
   className="bg-white text-black px-6 py-3 rounded inline-block"
 >
