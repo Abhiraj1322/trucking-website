@@ -1,5 +1,5 @@
 import React from 'react'
-
+import  {Link} from "react-router-dom"
 const Hero = () => {
   return (
 
@@ -14,20 +14,23 @@ const Hero = () => {
 
       <div className="relative text-center text-white">
         <h1 className="text-4xl font-bold mb-4 animate-slide-in">
-          Reliable Freight Solutions Across America
+   Reliable Freight Solutions Serving the GTA for 15+ Years
         </h1>
 
         <p className="mb-6">
-          Over 25 years of excellence in logistics
+          Over 15 years of excellence in logistics
         </p>
 
         <div className="flex gap-4 justify-center">
-          <button className="bg-white text-black px-6 py-3 rounded">
-            Get a Quote
-          </button>
-          <button className="border px-6 py-3 rounded">
-            Track Shipment
-          </button>
+        
+         <a
+  href="#contact"
+  className="bg-white text-black px-6 py-3 rounded inline-block"
+>
+  Get a Quote
+</a>
+        
+          
         </div>
       </div>
 

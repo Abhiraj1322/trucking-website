@@ -9,11 +9,17 @@ const Footer = () => {
               <Truck className="w-6 h-6" />
               <span>© 2026 Titan Transport. All rights reserved.</span>
             </div>
-            <div className="flex gap-6">
-              <a href="#" className="hover:opacity-80 transition-opacity">Privacy Policy</a>
-              <a href="#" className="hover:opacity-80 transition-opacity">Terms of Service</a>
-              <a href="#" className="hover:opacity-80 transition-opacity">Careers</a>
-            </div>
+         <div className="flex gap-6">
+  <a href="#about" className="hover:opacity-80 transition-opacity">
+    About Us
+  </a>
+  <a href="#services" className="hover:opacity-80 transition-opacity">
+    Services
+  </a>
+  <a href="#contact" className="hover:opacity-80 transition-opacity">
+    Contact
+  </a>
+</div>
           </div>
         </div>
       </footer>

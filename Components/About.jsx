@@ -6,7 +6,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="mb-6 text-black font-semibold">Why Choose Titan Transport?</h2>
+              <h2 className="mb-6 text-black font-semibold">Why Choose JG Express inc?</h2>
               <p className="text-muted-foreground mb-8">
                 Since 1999, we've been committed to providing exceptional transportation services across North America.
                 Our reputation is built on reliability, safety, and customer satisfaction.

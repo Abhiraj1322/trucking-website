@@ -7,7 +7,7 @@ const Navbar = () => {
         
         <div className="flex items-center gap-2">
                   <Truck />
-          <span className="font-semibold">Titan Transport</span>
+          <span className="font-semibold">JG EXPRESS INC</span>
         </div>
 
         <div className="hidden md:flex gap-8">

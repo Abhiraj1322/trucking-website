@@ -16,8 +16,8 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-primary" />
               </div>
               <h4 className="mb-2">Call Us</h4>
-              <p className="text-muted-foreground">1-800-TITAN-GO</p>
-              <p className="text-muted-foreground">(1-800-848-2646)</p>
+              <p className="text-muted-foreground">JG express inc</p>
+              <p className="text-muted-foreground">(+16479886061)</p>
             </div>
             <div className="bg-card p-6 rounded-lg text-center shadow-sm border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -25,15 +25,15 @@ const Contact = () => {
               </div>
               <h4 className="mb-2">Email Us</h4>
               <p className="text-muted-foreground">quotes@titantransport.com</p>
-              <p className="text-muted-foreground">support@titantransport.com</p>
+          
             </div>
             <div className="bg-card p-6 rounded-lg text-center shadow-sm border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
               <h4 className="mb-2">Visit Us</h4>
-              <p className="text-muted-foreground">4500 Logistics Way</p>
-              <p className="text-muted-foreground">Dallas, TX 75201</p>
+              <p className="text-muted-foreground">Vaughan,Ontario</p>
+         
             </div>
           </div>
         </div>
