@@ -24,7 +24,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <h4 className="mb-2">Email Us</h4>
-              <p className="text-muted-foreground">quotes@titantransport.com</p>
+              <p className="text-muted-foreground">info@jgexpressinc.ca</p>
           
             </div>
             <div className="bg-card p-6 rounded-lg text-center shadow-sm border border-border">
