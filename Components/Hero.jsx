@@ -3,7 +3,7 @@ import  {Link} from "react-router-dom"
 const Hero = () => {
   return (
 
-   <section className="relative h-[600px] flex items-center justify-center">
+   <section className="relative h-[600px] flex items-center justify-center" id="home">
       
       <img
         src="https://images.unsplash.com/photo-1592838064575-70ed626d3a0e"
