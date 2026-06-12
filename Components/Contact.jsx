@@ -15,16 +15,24 @@ const Contact = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-6 h-6 text-primary" />
               </div>
-              <h4 className="mb-2">Call Us</h4>
-              <p className="text-muted-foreground">JG express inc</p>
-              <p className="text-muted-foreground">(+16479886061)</p>
+<h4 className="mb-2">Call Us</h4>
+<p className="text-muted-foreground">JG express inc</p>
+<p className="text-muted-foreground">
+  <a href="tel:+16479886061" className="hover:underline">
+    (+1 647-988-6061)
+  </a>
+</p>
             </div>
             <div className="bg-card p-6 rounded-lg text-center shadow-sm border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <h4 className="mb-2">Email Us</h4>
-              <p className="text-muted-foreground">info@jgexpressinc.ca</p>
+          <p className="text-muted-foreground">
+  <a href="mailto:info@jgexpressinc.ca" className="hover:underline">
+    info@jgexpressinc.ca
+  </a>
+</p>
           
             </div>
             <div className="bg-card p-6 rounded-lg text-center shadow-sm border border-border">
