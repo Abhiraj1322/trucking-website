@@ -10,7 +10,7 @@ const Footer = () => {
               <span>© 2026 JG EXPRESS INC. All rights reserved.</span>
             </div>
          <div className="flex gap-6">
-   <a href="#about" className="hover:opacity-80 transition-opacity">
+   <a href="#home" className="hover:opacity-80 transition-opacity">
     Home
   </a>
   <a href="#about" className="hover:opacity-80 transition-opacity">
