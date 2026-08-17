@@ -2,16 +2,7 @@ import React from 'react'
 import{Truck,Package,MapPin,Clock} from "lucide-react"
 const Services = () => {
       const services = [
-    {
-      icon: <Truck />,
-      title: "Long Haul Transport",
-      desc: "Reliable long-distance trucking across states with safe and on-time delivery.",
-    },
-    {
-      icon: <Package />,
-      title: "Freight Delivery",
-      desc: "Fast and secure freight transportation for all types of cargo.",
-    },
+   
     {
       icon: <MapPin />,
       title: "Local Delivery",
@@ -35,7 +26,7 @@ const Services = () => {
       </div>
 
       {/* Cards */}
-      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-6">
         {services.map((service, index) => (
           <div
             key={index}

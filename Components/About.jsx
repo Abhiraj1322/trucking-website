@@ -7,10 +7,10 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="mb-6 text-black font-semibold">Why Choose JG Express inc?</h2>
-              <p className="text-muted-foreground mb-8">
-                 We've been committed to providing exceptional transportation services across North America.
-                Our reputation is built on reliability, safety, and customer satisfaction.
-              </p>
+             <p className="text-muted-foreground mb-8">
+  We are committed to providing top-tier freight and logistics services across Ontario. 
+  Our reputation is built on reliability, safety, and customer satisfaction.
+</p>
               <div className="space-y-4">
                 <div className="flex gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
