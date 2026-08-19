@@ -1,21 +1,17 @@
 import React from 'react'
-import{Truck,Package,MapPin,Clock} from "lucide-react"
+import { MapPin } from "lucide-react"
+
 const Services = () => {
-      const services = [
-   
+  const services = [
     {
-      icon: <MapPin />,
+      icon: <MapPin className="w-8 h-8" />,
       title: "Local Delivery",
-      desc: "Quick and efficient local delivery services within your city or region.",
-    },
-    {
-      icon: <Clock />,
-      title: "24/7 Logistics Support",
-      desc: "Round-the-clock tracking and support for all shipments.",
+      desc: "Quick and efficient local delivery services within your city.",
     },
   ]
+
   return (
-      <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-50">
       
       {/* Heading */}
       <div className="text-center mb-12">
@@ -25,20 +21,20 @@ const Services = () => {
         </p>
       </div>
 
-      {/* Cards */}
-      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-6">
+      {/* Centered Single Card Layout */}
+      <div className="max-w-6xl mx-auto px-4 flex justify-center">
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+            className="w-full max-w-md bg-white p-8 rounded-xl shadow hover:shadow-lg transition text-center flex flex-col items-center"
           >
             <div className="text-blue-600 mb-4">{service.icon}</div>
 
-            <h3 className="text-xl font-semibold mb-2">
+            <h3 className="text-2xl font-semibold mb-2">
               {service.title}
             </h3>
 
-            <p className="text-gray-600 text-sm">
+            <p className="text-gray-600 text-sm leading-relaxed">
               {service.desc}
             </p>
           </div>

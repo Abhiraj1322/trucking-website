@@ -30,7 +30,7 @@ const Fleet = () => {
             <div className="w-full md:w-1/2 p-8">
               <h3 className="mb-3 text-black font-bold text-2xl">Dry Van Trailers</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Standard 53ft enclosed trailers engineered for safe, secure, and weatherproof freight transport across long distances.
+                Standard 53ft and 48ft enclosed trailers engineered for safe, secure, and weatherproof freight transport across local city.
               </p>
             </div>
 

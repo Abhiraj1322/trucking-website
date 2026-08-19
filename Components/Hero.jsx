@@ -18,7 +18,7 @@ Your Trusted GTA Freight Partner
         </h1>
 
         <p className="mb-6 mt-2">
-          Over 15 years of excellence in logistics
+          Over 10 years of excellence in logistics
         </p>
 
         <div className="flex gap-4 justify-center">
